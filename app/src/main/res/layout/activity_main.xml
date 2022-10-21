@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- Tampilkan Nama, Nim, Deskripsi, Foto -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biodata"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arya Bagus Isdiarto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164" />
+
+    <TextView
+        android:id="@+id/tvNim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A11.2021.13353"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <ImageView
+        android:id="@+id/ivFoto"
+        android:layout_width="107dp"
+        android:layout_height="159dp"
+        android:src="@drawable/foto1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <TextView
+        android:id="@+id/tvHobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOBI SAYA BERMAIN GAME DAN MUSIK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <TextView
+        android:id="@+id/tvDeskripsi"
+        android:layout_width="338dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="Saya Arya Bagus Isdiarto, Mahasiswa UDINUS Prodi S1 - Teknik Informatika, Saya berasal dari Purwokerto, Umur saya 19 tahun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <Button
+        android:id="@+id/btnAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="alamat"
+        android:text="Alamat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="email"
+        android:text="Email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
+
+    <Button
+        android:id="@+id/btnTelepon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="telepon"
+        android:text="Telepon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
